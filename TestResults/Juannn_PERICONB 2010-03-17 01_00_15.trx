@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="45eb05d5-d046-4f2d-8b61-87982dcbd4a3" name="Juannn@PERICONB 2010-03-17 01:00:15" runUser="PericoNB\Juannn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b61f091-9476-4e02-b34d-054308935607">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juannn_PERICONB 2010-03-17 01_00_15">
+      <DeploymentItem filename="c:\fuentes\Commands\Commands.Architecture\bin\Debug\Commands.Bus.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-17T01:00:15.3930101-03:00" queuing="2010-03-17T01:00:26.5136462-03:00" start="2010-03-17T01:00:26.7626605-03:00" finish="2010-03-17T01:00:33.4850450-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PERICONB" outcome="Error" timestamp="2010-03-17T01:00:33.4800447-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Publish_A_Message" storage="c:\fuentes\commands\commands.bus.tests\bin\debug\commands.bus.tests.dll" id="783cb204-2039-dcf1-c2d5-cfaf40a9c035">
+      <Execution id="9d00242c-17b0-493b-a3d8-ee872ac79072" />
+      <TestMethod codeBase="c:/fuentes/Commands/Commands.Bus.Tests/bin/Debug/Commands.Bus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Commands.Bus.Tests.DirectBusTests, Commands.Bus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Publish_A_Message" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="783cb204-2039-dcf1-c2d5-cfaf40a9c035" executionId="9d00242c-17b0-493b-a3d8-ee872ac79072" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9d00242c-17b0-493b-a3d8-ee872ac79072" testId="783cb204-2039-dcf1-c2d5-cfaf40a9c035" testName="Can_Publish_A_Message" computerName="PERICONB" duration="00:00:06.3883654" startTime="2010-03-17T01:00:27.0956795-03:00" endTime="2010-03-17T01:00:33.4840449-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d00242c-17b0-493b-a3d8-ee872ac79072">
+    </UnitTestResult>
+  </Results>
+</TestRun>
