@@ -40,12 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandHandler.cs" />
     <Compile Include="Direct\CommandRouter.cs" />
     <Compile Include="Direct\DirectBus.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="IBus.cs" />
     <Compile Include="ICommandHandler.cs" />
+    <Compile Include="Persistence\ICommandRepository.cs" />
     <Compile Include="ICommandRouter.cs" />
+    <Compile Include="MemoryPersistence\MemoryCommandRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

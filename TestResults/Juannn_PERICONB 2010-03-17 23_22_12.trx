@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="29c45ffd-9ed5-4105-8c66-d6e187a6ddc6" name="Juannn@PERICONB 2010-03-17 23:22:12" runUser="PericoNB\Juannn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b61f091-9476-4e02-b34d-054308935607">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juannn_PERICONB 2010-03-17 23_22_12">
+      <DeploymentItem filename="c:\fuentes\Commands\Commands.Architecture\bin\Debug\Commands.Bus.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-17T23:22:12.9712350-03:00" queuing="2010-03-17T23:22:14.6843330-03:00" start="2010-03-17T23:22:14.9273469-03:00" finish="2010-03-17T23:23:11.0565573-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Publish_A_Message_To_Multiple_Handlers" storage="c:\fuentes\commands\commands.bus.tests\bin\debug\commands.bus.tests.dll" id="a45b07e8-54bd-29f3-2387-e20f32a220e5">
+      <Execution id="2e733fc8-875e-4cec-bef4-2e400250fc4c" />
+      <TestMethod codeBase="c:/fuentes/Commands/Commands.Bus.Tests/bin/Debug/Commands.Bus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Commands.Bus.Tests.DirectBusTests, Commands.Bus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Publish_A_Message_To_Multiple_Handlers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a45b07e8-54bd-29f3-2387-e20f32a220e5" executionId="2e733fc8-875e-4cec-bef4-2e400250fc4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e733fc8-875e-4cec-bef4-2e400250fc4c" testId="a45b07e8-54bd-29f3-2387-e20f32a220e5" testName="Can_Publish_A_Message_To_Multiple_Handlers" computerName="PERICONB" duration="00:00:52.5199271" startTime="2010-03-17T23:22:15.1683607-03:00" endTime="2010-03-17T23:23:10.8595460-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e733fc8-875e-4cec-bef4-2e400250fc4c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

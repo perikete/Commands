@@ -5,14 +5,8 @@ using System.Text;
 
 namespace Commands.Bus.Tests
 {
-    public class TestCommand : ICommand
+    public class TestCommand : Command
     {
-        public Guid Id
-        {
-            get;
-            private set;
-        }
-
         public TestEntity Entity { get; private set; }
         public string Name { get; set; }
         public string Lastname { get; set; }
@@ -20,7 +14,6 @@ namespace Commands.Bus.Tests
       
         public TestCommand(TestEntity entity, string name, string lastname, int age)
         {
-            this.Id = Guid.NewGuid();
             this.Entity = entity;
             this.Name = name;
             this.Age = age;

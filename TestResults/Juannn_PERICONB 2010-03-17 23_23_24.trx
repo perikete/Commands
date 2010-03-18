@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="adf96533-b74d-45c3-82f8-7bc3ac1d4cae" name="Juannn@PERICONB 2010-03-17 23:23:24" runUser="PericoNB\Juannn" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b61f091-9476-4e02-b34d-054308935607">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juannn_PERICONB 2010-03-17 23_23_24">
+      <DeploymentItem filename="c:\fuentes\Commands\Commands.Architecture\bin\Debug\Commands.Bus.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-17T23:23:24.3643185-03:00" queuing="2010-03-17T23:23:26.2624270-03:00" start="2010-03-17T23:23:26.4534380-03:00" finish="2010-03-17T23:23:29.3626044-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Publish_A_Message_To_Multiple_Handlers" storage="c:\fuentes\commands\commands.bus.tests\bin\debug\commands.bus.tests.dll" id="a45b07e8-54bd-29f3-2387-e20f32a220e5">
+      <Execution id="f4126591-369d-4d8b-ba4f-8011107b4159" />
+      <TestMethod codeBase="c:/fuentes/Commands/Commands.Bus.Tests/bin/Debug/Commands.Bus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Commands.Bus.Tests.DirectBusTests, Commands.Bus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Publish_A_Message_To_Multiple_Handlers" />
+    </UnitTest>
+    <UnitTest name="Can_Publish_A_Message" storage="c:\fuentes\commands\commands.bus.tests\bin\debug\commands.bus.tests.dll" id="783cb204-2039-dcf1-c2d5-cfaf40a9c035">
+      <Execution id="ea215255-8f40-47e6-8a86-84215b916e91" />
+      <TestMethod codeBase="c:/fuentes/Commands/Commands.Bus.Tests/bin/Debug/Commands.Bus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Commands.Bus.Tests.DirectBusTests, Commands.Bus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Publish_A_Message" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="783cb204-2039-dcf1-c2d5-cfaf40a9c035" executionId="ea215255-8f40-47e6-8a86-84215b916e91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a45b07e8-54bd-29f3-2387-e20f32a220e5" executionId="f4126591-369d-4d8b-ba4f-8011107b4159" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea215255-8f40-47e6-8a86-84215b916e91" testId="783cb204-2039-dcf1-c2d5-cfaf40a9c035" testName="Can_Publish_A_Message" computerName="PERICONB" duration="00:00:00.0192807" startTime="2010-03-17T23:23:26.6224476-03:00" endTime="2010-03-17T23:23:29.2405974-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea215255-8f40-47e6-8a86-84215b916e91">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4126591-369d-4d8b-ba4f-8011107b4159" testId="a45b07e8-54bd-29f3-2387-e20f32a220e5" testName="Can_Publish_A_Message_To_Multiple_Handlers" computerName="PERICONB" duration="00:00:00.0009684" startTime="2010-03-17T23:23:29.2595985-03:00" endTime="2010-03-17T23:23:29.2685990-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4126591-369d-4d8b-ba4f-8011107b4159">
+    </UnitTestResult>
+  </Results>
+</TestRun>
